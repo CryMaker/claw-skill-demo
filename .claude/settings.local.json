@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p backend)",
+      "Bash(python -m venv venv)",
+      "Bash(./venv/Scripts/pip install *)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(./venv/Scripts/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000)",
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "WebSearch",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
